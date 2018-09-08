@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Vanquish2</string>
+
+    <string name="typeofincident">TYPE OF INCIDENT</string>
+    <string name="checkbox1">Collision</string>
+    <string name="checkbox2">Non-Collision</string>
+    <string name="nextmain">Next</string>
+    <string name="previousmain">Previous</string>
+
+    <string name="casualty">TYPE OF CASUALTY</string>
+    <string name="pass">Passenger Vehicle</string>
+    <string name="motor">Motorcycle</string>
+    <string name="bike">Cyclist</string>
+    <string name="comm">Commercial Vehicle</string>
+    <string name="Ped">Pedestrian</string>
+    <string name="nextcasualty">Next</string>
+    <string name="previouscasualty">Previous</string>
+    <string name="title_activity_no_collision">noCollision</string>
+</resources>
