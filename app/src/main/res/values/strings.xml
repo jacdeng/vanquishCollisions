@@ -7,6 +7,15 @@
     <string name="nextmain">Next</string>
     <string name="previousmain">Previous</string>
 
+    <!--Nocollision's name references-->
+    <string name="noCollisionTitle">Non-Collision: Continued</string>
+    <string name="checkbox12">Pothole</string>
+    <string name="checkbox13">Road Obstacle</string>
+    <string name="checkbox14">Animal</string>
+    <string name="checkbox15">Person</string>
+
+
+
     <string name="casualty">TYPE OF CASUALTY</string>
     <string name="pass">Passenger Vehicle</string>
     <string name="motor">Motorcycle</string>
