@@ -34,4 +34,5 @@
     <string name="title_activity_no_collision">noCollision</string>
     <string name="nexttoform">Start Report Form</string>
     <string name="takephoto">Take Photo</string>
+    <string name="title_activity_details">Details</string>
 </resources>
