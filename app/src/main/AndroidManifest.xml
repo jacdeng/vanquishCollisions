@@ -23,7 +23,11 @@
         <activity android:name=".MainActivity" />
         <activity
             android:name=".noCollision"
-            android:label="@string/title_activity_no_collision"></activity>
+            android:label="@string/title_activity_no_collision" />
+
+        <activity
+            android:name=".Thnx_bruh"
+            android:label="@string/title_activity_thnx_bruh"></activity>
     </application>
 
 </manifest>
