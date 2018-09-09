@@ -12,7 +12,9 @@
     <string name="checkbox12">Pothole</string>
     <string name="checkbox13">Road Obstacle</string>
     <string name="checkbox14">Animal</string>
-    <string name="checkbox15">Person</string>
+    <string name="checkbox15">Suspicious Persons</string>
+    <string name="nextno">Next</string>
+    <string name="previousno">Previous</string>
 <!-- 何 -->
 
     <string name="casualty">TYPE OF CASUALTY</string>
