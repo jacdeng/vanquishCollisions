@@ -26,7 +26,7 @@ public class noCollision extends Activity {
 
         Intent nextButton = new Intent(this, Details.class);
 
-        startActivity(nextButton);
+        startActivityForResult(nextButton, 1);
     }
 }
 

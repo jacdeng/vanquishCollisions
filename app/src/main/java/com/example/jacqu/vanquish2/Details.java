@@ -28,7 +28,7 @@ public class Details extends Activity {
     public void previous2(View view) {
         Intent previous2 = new Intent(this, noCollision.class);
 
-        startActivity(previous2);
+        finishActivity(0);
     }
 
     public void lastNext(View view) {
