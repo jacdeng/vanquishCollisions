@@ -11,6 +11,7 @@
         android:layout_width="88dp"
         android:layout_height="wrap_content"
         android:text="@string/nextcasualty"
+        android:onClick="next"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -20,6 +21,7 @@
         android:layout_width="96dp"
         android:layout_height="wrap_content"
         android:text="@string/previouscasualty"
+        android:onClick="previous"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
