@@ -26,17 +26,14 @@
             android:name=".noCollision"
             android:label="@string/title_activity_no_collision" />
         <activity
-            android:name=".Thnx_bruh"
-<<<<<<< HEAD
-            android:label="@string/title_activity_thnx_bruh"></activity>
+            android:name=".Thnx_bruh"/>
+
         <activity
             android:name=".NoCollisionReport" />
-=======
-            android:label="@string/title_activity_thnx_bruh" />
         <activity
             android:name=".Details"
             android:label="@string/title_activity_details"></activity>
->>>>>>> f1b1c753f8a2f5e32462ad1454965b971a2e4fe5
+
     </application>
 
 </manifest>
