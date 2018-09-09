@@ -190,7 +190,8 @@ public class Login extends AppCompatActivity implements LoaderCallbacks<Cursor> 
             // perform the user login attempt.
             showProgress(true);
             mAuthTask = new UserLoginTask(email, password);
-            mAuthTask.execute((Void) null);
+            Intent nextpage = new Intent(this, SecondActivity.class);
+            startActivity(nextpage);
         }
     }
 
@@ -282,12 +283,6 @@ public class Login extends AppCompatActivity implements LoaderCallbacks<Cursor> 
 
         mEmailView.setAdapter(adapter);
     }
-
-    public void tostart(View view) {
-        Intent nextpage = new Intent(this, SecondActivity.class);
-        startActivity(nextpage);
-    }
-
 
     private interface ProfileQuery {
         String[] PROJECTION = {
