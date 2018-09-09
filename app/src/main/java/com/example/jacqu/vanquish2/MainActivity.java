@@ -3,6 +3,7 @@ package com.example.jacqu.vanquish2;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CheckBox;
 
 import java.util.ArrayList;
 
@@ -34,25 +35,42 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+    private CheckBox collision, nocollision;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        collision = findViewById(R.id.collision);
+        nocollision = findViewById(R.id.nocollision);
     }
 
     public boolean iscollision;
 
     public void collision(View view) {
-        iscollision = true;
+        switch (view.getId()) {
+
+            case R.id.collision:
+
+                nocollision.setChecked(false);
+                iscollision = true;
+
+                break;
+
+            case R.id.nocollision:
+
+                collision.setChecked(false);
+                iscollision = false;
+
+                break;
+        }
     }
 
-    public void notcollison(View view){
-        iscollision = false;
-    }
 
-    public void nextButton(View view){
+    public void nextButton(View view) {
+
+
         Entry e = new Entry(iscollision);
 
     }
