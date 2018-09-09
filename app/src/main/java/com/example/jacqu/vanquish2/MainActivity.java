@@ -71,8 +71,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(previous);
     }
     public void nextpage(View view) {
-        Intent nextpage = new Intent(this, Casualty.class);
-        startActivity(nextpage);
+        if(iscollision) {
+            Intent nextpage = new Intent(this, Casualty.class);
+            startActivity(nextpage);
+        }
+        else{
+            Intent nextpage = new Intent(this, noCollision.class);
+            startActivity(nextpage);
+        }
     }
 
 
