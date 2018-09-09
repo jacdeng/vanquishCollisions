@@ -24,7 +24,9 @@ public class Casualty extends AppCompatActivity {
 
         Intent next1 = new Intent(this, Details.class);
 
-        startActivity(next1);
+
+
+        startActivityForResult(next1, 1);
 
     }
 }

@@ -38,4 +38,8 @@ public class Details extends Activity {
         startActivity(lastNext);
 
     }
+
+    public void tolast(View view) {
+
+    }
 }
