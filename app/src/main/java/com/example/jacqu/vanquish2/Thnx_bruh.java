@@ -14,18 +14,11 @@ public class Thnx_bruh extends Activity {
     }
 
     public void previous(View view) {
-        Intent previouspage = new Intent(this, SecondActivity.class);
+        Intent previouspage = new Intent(this, Details.class);
 
         startActivity(previouspage);
     }
 
 
 
-    public void nextButton(View view) {
-
-        Intent nextpage = new Intent(this, Casualty.class);
-
-        startActivity(nextpage);
-
-    }
 }
