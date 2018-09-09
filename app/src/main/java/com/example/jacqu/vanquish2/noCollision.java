@@ -1,7 +1,9 @@
 package com.example.jacqu.vanquish2;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
+import android.view.View;
 
 public class noCollision extends Activity {
 
@@ -11,4 +13,18 @@ public class noCollision extends Activity {
         setContentView(R.layout.activity_no_collision);
     }
 
+    public void previousButton(View view) {
+        Intent previousButton = new Intent(this, MainActivity.class);
+
+        startActivity(previousButton);
+    }
+
+
+
+    public void nextButton(View view) {
+
+        Intent nextButton = new Intent(this, Details.class);
+
+        startActivity(nextButton);
+    }
 }

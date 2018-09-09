@@ -67,20 +67,28 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void previous(View view) {
-        Intent previouspage = new Intent(this, SecondActivity.class);
+        Intent previous = new Intent(this, SecondActivity.class);
 
-        startActivity(previouspage);
+        startActivity(previous);
     }
 
 
 
-    public void nextButton(View view) {
+    public void next1(View view) {
 
+        Intent next1 = new Intent(this, Casualty.class);
 
-        Entry e = new Entry(iscollision);
+        startActivity(next1);
 
     }
 
+    public void next2(View view) {
+
+        Intent next2 = new Intent(this, noCollision.class);
+
+        startActivity(next2);
+
+    }
 
 
 }

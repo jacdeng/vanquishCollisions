@@ -29,11 +29,11 @@ public class SecondActivity extends AppCompatActivity {
 
 
 
-    public void nextpage(View view) {
+    public void next(View view) {
 
-        Intent nextpage = new Intent(this, MainActivity.class);
+        Intent next = new Intent(this, MainActivity.class);
 
-        startActivity(nextpage);
+        startActivity(next);
     }
 
 
