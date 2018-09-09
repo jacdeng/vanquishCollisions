@@ -6,19 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".noCollision">
 
-<TextView
-android:id="@+id/textView"
-android:layout_width="wrap_content"
-android:layout_height="17dp"
-android:layout_marginBottom="8dp"
-android:layout_marginTop="8dp"
-android:text="@string/noCollisionTitle"
-app:layout_constraintBottom_toBottomOf="parent"
-app:layout_constraintHorizontal_bias="0.501"
-app:layout_constraintLeft_toLeftOf="parent"
-app:layout_constraintRight_toRightOf="parent"
-app:layout_constraintTop_toTopOf="parent"
-app:layout_constraintVertical_bias="0.116" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="311dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/noCollisionTitle"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33" />
 
 
 
@@ -41,8 +43,8 @@ app:layout_constraintVertical_bias="0.116" />
         app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
-        android:layout_width="244dp"
-        android:layout_height="229dp"
+        android:layout_width="243dp"
+        android:layout_height="137dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -51,7 +53,6 @@ app:layout_constraintVertical_bias="0.116" />
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.87"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 

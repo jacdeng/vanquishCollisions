@@ -275,6 +275,7 @@ public class Login extends AppCompatActivity implements LoaderCallbacks<Cursor> 
 
     }
 
+
     private void addEmailsToAutoComplete(List<String> emailAddressCollection) {
         //Create adapter to tell the AutoCompleteTextView what to show in its dropdown list.
         ArrayAdapter<String> adapter =
