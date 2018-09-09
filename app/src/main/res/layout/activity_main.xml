@@ -20,7 +20,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.116" />
 
-
     <Button
         android:id="@+id/button"
         android:layout_width="88dp"
