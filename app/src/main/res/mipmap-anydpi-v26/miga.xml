@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="https://bearwithstar.files.wordpress.com/2010/12/miga.png">
+    <background android:drawable="@drawable/miga_background"/>
+    <foreground android:drawable="@drawable/miga_foreground"/>
+</adaptive-icon>
