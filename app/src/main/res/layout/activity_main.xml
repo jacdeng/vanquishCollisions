@@ -26,7 +26,8 @@
         android:layout_width="88dp"
         android:layout_height="wrap_content"
         android:text="@string/nextmain"
-        android:onClick="Ne"
+        android:onClick="nextpage"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

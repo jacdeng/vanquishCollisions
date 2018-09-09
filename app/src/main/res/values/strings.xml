@@ -26,6 +26,9 @@
     <string name="nextcasualty">Next</string>
     <string name="previouscasualty">Previous</string>
 
+    <string name="next1">Next</string>
+    <string name="previous1">Previous</string>
+
     <string name="title_activity_thnx_bruh">activity_thnx</string>
     <string name="TY">THANK YOU</string>
     <string name="ty">Your contributions help save live. We appreciate your support!</string>
@@ -34,4 +37,8 @@
     <string name="title_activity_no_collision">noCollision</string>
     <string name="nexttoform">Start Report Form</string>
     <string name="takephoto">Take Photo</string>
+    <string name="title_activity_details">Details</string>
+    <string name="details">Details</string>
+    <string name="enter_any_details_you_would_like_to_go_with_the_report">Enter any details you would like to go with the report.</string>
+    <string name="enter_details_here">Enter details here</string>
 </resources>
