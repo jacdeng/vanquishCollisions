@@ -4,13 +4,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 
 public class Details extends Activity {
+
+    EditText detail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
+
+        detail = (EditText) findViewById(R.id.detail);
+
     }
 
     public void previous1(View view) {
