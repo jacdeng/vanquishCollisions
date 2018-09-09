@@ -20,7 +20,7 @@ public class Casualty extends AppCompatActivity {
 
 
 
-    public void next1(View view) {
+    public void next(View view) {
 
         Intent next1 = new Intent(this, Details.class);
 

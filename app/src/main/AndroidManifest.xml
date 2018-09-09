@@ -21,6 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
+        <activity android:name=".Casualty" />
         <activity
             android:name=".noCollision"
             android:label="@string/title_activity_no_collision" />

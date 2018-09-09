@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
-    private CheckBox collision, nocollision;
 
 
     @Override
@@ -71,24 +70,15 @@ public class MainActivity extends AppCompatActivity {
 
         startActivity(previous);
     }
-
-
-
-    public void next1(View view) {
-
-        Intent next1 = new Intent(this, Casualty.class);
-
-        startActivity(next1);
-
+    public void nextpage(View view) {
+        Intent nextpage = new Intent(this, Casualty.class);
+        startActivity(nextpage);
     }
 
-    public void next2(View view) {
 
-        Intent next2 = new Intent(this, noCollision.class);
 
-        startActivity(next2);
 
-    }
+
 
 
 }
