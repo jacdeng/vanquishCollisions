@@ -15,7 +15,7 @@
     <string name="checkbox15">Suspicious Persons</string>
     <string name="nextno">Next</string>
     <string name="previousno">Previous</string>
-<!-- 何 -->
+
 
     <string name="casualty">TYPE OF CASUALTY</string>
     <string name="pass">Passenger Vehicle</string>
@@ -27,4 +27,6 @@
     <string name="previouscasualty">Previous</string>
 
     <string name="title_activity_no_collision">noCollision</string>
+    <string name="nexttoform">Start Report Form</string>
+    <string name="takephoto">Take Photo</string>
 </resources>

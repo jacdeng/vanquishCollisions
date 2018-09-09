@@ -4,11 +4,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
+import android.widget.RadioButton;
 
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     private ArrayList Entries;
+
 
 
 
@@ -42,30 +44,29 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        collision = findViewById(R.id.collision);
-        nocollision = findViewById(R.id.nocollision);
+
     }
 
     public boolean iscollision;
 
     public void collision(View view) {
-        switch (view.getId()) {
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
 
-            case R.id.collision:
-
-                nocollision.setChecked(false);
-                iscollision = true;
-
-                break;
-
-            case R.id.nocollision:
-
-                collision.setChecked(false);
-                iscollision = false;
-
-                break;
+        // Check which radio button was clicked
+        switch(view.getId()) {
+            case R.id.Collision:
+                if (checked)
+                    iscollision = true;
+                    break;
+            case R.id.noCollision:
+                if (checked)
+                    iscollision = false;
+                    break;
         }
     }
+
+
 
 
     public void nextButton(View view) {
