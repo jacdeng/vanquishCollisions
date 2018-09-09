@@ -13,6 +13,7 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+        dispatchTakePictureIntent();
     }
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
@@ -24,9 +25,14 @@ public class SecondActivity extends AppCompatActivity {
         }
     }
 
+
+
     public void nextpage(View view) {
+
         Intent nextpage = new Intent(this, MainActivity.class);
 
         startActivity(nextpage);
     }
+
+
 }
