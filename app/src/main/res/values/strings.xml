@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Vanquish2</string>
 
+    <!--Main-->
     <string name="typeofincident">TYPE OF INCIDENT</string>
     <string name="checkbox1">Collision</string>
     <string name="checkbox2">Non-Collision</string>
@@ -16,7 +17,8 @@
     <string name="nextno">Next</string>
     <string name="previousno">Previous</string>
 
-
+    <!--no collision-->
+    <string name="title_activity_no_collision">noCollision</string>
     <string name="casualty">TYPE OF CASUALTY</string>
     <string name="pass">Passenger Vehicle</string>
     <string name="motor">Motorcycle</string>
@@ -26,15 +28,15 @@
     <string name="nextcasualty">Next</string>
     <string name="previouscasualty">Previous</string>
 
+    <!--Thnx-->
     <string name="next1">Next</string>
     <string name="previous1">Previous</string>
-
     <string name="title_activity_thnx_bruh">activity_thnx</string>
     <string name="TY">THANK YOU</string>
     <string name="ty">Your contributions help save live. We appreciate your support!</string>
+    <string name="Miga"></string>
 
-    <!-- don't touch -->
-    <string name="title_activity_no_collision">noCollision</string>
+    <!-- Second -->
     <string name="nexttoform">Start Report Form</string>
     <string name="takephoto">Take Photo</string>
     <string name="title_activity_details">Details</string>
@@ -57,4 +59,5 @@
     </string>
     <string name="welcome">Welcome!</string>
     <string name="sign_up_and_help_us_create_a_safer_community">Sign up and help us create a safer community!</string>
+
 </resources>

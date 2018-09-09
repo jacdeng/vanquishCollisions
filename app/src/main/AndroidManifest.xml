@@ -29,7 +29,7 @@
             android:name=".noCollision"
             android:label="@string/title_activity_no_collision" />
         <activity
-            android:name=".Thnx_bruh"/>
+            android:name=".Thnx"/>
 
         <activity
             android:name=".NoCollisionReport" />
