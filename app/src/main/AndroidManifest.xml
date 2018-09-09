@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.jacqu.vanquish2">
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
@@ -19,25 +21,19 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".SecondActivity">
-
-        </activity>
+        <activity android:name=".SecondActivity"></activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".Casualty" />
         <activity
             android:name=".noCollision"
             android:label="@string/title_activity_no_collision" />
-        <activity
-            android:name=".Thnx"/>
-
-        <activity
-            android:name=".NoCollisionReport" />
+        <activity android:name=".Thnx" />
+        <activity android:name=".NoCollisionReport" />
         <activity
             android:name=".Details"
-            android:label="@string/title_activity_details"></activity>
-
+            android:label="@string/title_activity_details" />
+        <activity android:name=".Location"></activity>
     </application>
 
 </manifest>
