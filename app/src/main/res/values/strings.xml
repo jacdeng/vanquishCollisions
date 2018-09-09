@@ -41,4 +41,20 @@
     <string name="details">Details</string>
     <string name="enter_any_details_you_would_like_to_go_with_the_report">Enter any details you would like to go with the report.</string>
     <string name="enter_details_here">Enter details here</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Submit</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="welcome">Welcome!</string>
+    <string name="sign_up_and_help_us_create_a_safer_community">Sign up and help us create a safer community!</string>
 </resources>
