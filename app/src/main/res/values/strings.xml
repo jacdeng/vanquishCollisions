@@ -24,5 +24,6 @@
     <string name="Ped">Pedestrian</string>
     <string name="nextcasualty">Next</string>
     <string name="previouscasualty">Previous</string>
+
     <string name="title_activity_no_collision">noCollision</string>
 </resources>
