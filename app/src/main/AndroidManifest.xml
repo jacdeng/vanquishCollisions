@@ -28,6 +28,8 @@
         <activity
             android:name=".Thnx_bruh"
             android:label="@string/title_activity_thnx_bruh"></activity>
+        <activity
+            android:name=".NoCollisionReport" />
     </application>
 
 </manifest>

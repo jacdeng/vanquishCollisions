@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
+import android.widget.EditText;
 
 public class noCollision extends Activity {
 
@@ -28,3 +29,5 @@ public class noCollision extends Activity {
         startActivity(nextButton);
     }
 }
+
+
