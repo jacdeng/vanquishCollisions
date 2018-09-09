@@ -5,12 +5,12 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
 
-public class Thnx_bruh extends Activity {
+public class Thnx extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_thnx_bruh);
+        setContentView(R.layout.activity_thnx);
     }
 
     public void previous(View view) {
